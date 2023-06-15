@@ -5,7 +5,7 @@ import React from 'react';
 import { BuilderComponent, builder, useIsPreviewing, Builder } from '@builder.io/react';
 import DepartmentCard from "@/components/departments/departments-card";
 import {InferGetStaticPropsType} from "next";
-
+import '/builder-settings';
 
 export async function getStaticProps({ params }: any) {
   // Fetch the first page from Builder that matches the current URL.
