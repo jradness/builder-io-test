@@ -14,3 +14,4 @@ builder.init(API_KEY_PUBLIC);
 //   // the insert menu components and sections yourself
 //   Builder.register('editor.settings', { customInsertMenu: true });
 // }
+
