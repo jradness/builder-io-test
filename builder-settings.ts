@@ -2,8 +2,8 @@ import { Builder, builder } from "@builder.io/react";
 
 import './components/departments/department-card.builder';
 
-// const API_KEY_PUBLIC : any = process.env.BUILDER_PUBLIC_KEY;
-const API_KEY_PUBLIC : string = "9679269f37df43699c036074fd9e6ccb";
+const API_KEY_PUBLIC : any = process.env.BUILDER_PUBLIC_KEY;
+// const API_KEY_PUBLIC : string = "9679269f37df43699c036074fd9e6ccb";
 builder.init(API_KEY_PUBLIC);
 
 // Remove this to allow all built-in components to be used too
