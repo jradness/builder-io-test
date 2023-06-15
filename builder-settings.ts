@@ -2,7 +2,7 @@ import { Builder, builder } from "@builder.io/react";
 
 import './components/departments/department-card.builder';
 
-let API_KEY_PUBLIC : any = process.env.BUILDER_PUBLIC_KEY;
+const API_KEY_PUBLIC : any = process.env.NODE_ENV === "development" ? process.env.BUILDER_PUBLIC_KEY_DEV : process.env.BUILDER_PUBLIC_KEY;
 // if (process.env.NODE_ENV === "development") API_KEY_PUBLIC = "073f4fc59c1e4b0d93c2c757e7f0e2e9"
 builder.init(API_KEY_PUBLIC);
 
