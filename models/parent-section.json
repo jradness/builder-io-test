@@ -1,0 +1,87 @@
+{
+  "ownerId": "dc7c570958494ec4b9515443e7f60546",
+  "lastUpdateBy": null,
+  "createdDate": 1681146675150,
+  "id": "3eedc55a918c4ff89417eba8aa19e5b3", // id of the actual page, section or data content.
+  "@version": 3,
+  "name": "about",
+  "modelId": "d5f8884042414079b12f51cf08055c6a", // id of the global page, section, or data content model (blueprint).
+  "published": "draft",
+  "meta": {
+    "kind": "page",
+    "lastPreviewUrl": "http://localhost:3000/about?builder.space=dc7c570958494ec4b9515443e7f60546&builder.cachebust=true&builder.preview=page&builder.noCache=true&__builder_editing__=true&builder.overrides.page=3eedc55a918c4ff89417eba8aa19e5b3&builder.overrides.3eedc55a918c4ff89417eba8aa19e5b3=3eedc55a918c4ff89417eba8aa19e5b3&builder.overrides.page:/about=3eedc55a918c4ff89417eba8aa19e5b3",
+    "hasLinks": false
+  },
+  "priority": -2,
+  "query": [
+    {
+      "@type": "@builder.io/core:Query",
+      "property": "urlPath",
+      "operator": "is",
+      "value": "/about"
+    }
+  ],
+  "data": {
+    "title": "about",
+    "themeId": false,
+    "customFonts": [
+      {
+        "kind": "webfonts#webfont",
+        "family": "Roboto",
+        "category": "sans-serif",
+        "variants": [
+          "100",
+          "100italic",
+          "300",
+          "300italic",
+          "regular",
+          "italic",
+          "500",
+          "500italic",
+          "700",
+          "700italic",
+          "900",
+          "900italic"
+        ],
+        "subsets": [
+          "latin",
+          "greek",
+          "greek-ext",
+          "latin-ext",
+          "cyrillic",
+          "vietnamese",
+          "cyrillic-ext"
+        ],
+        "version": "v18",
+        "lastModified": "2017-10-16",
+        "files": {
+          "100": "https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1MmgWxP.ttf",
+          "300": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5vAw.ttf",
+          "500": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmEU9vAw.ttf",
+          "700": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmWUlvAw.ttf",
+          "900": "https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmYUtvAw.ttf",
+          "100italic": "https://fonts.gstatic.com/s/roboto/v18/KFOiCnqEu92Fr1Mu51QrIzc.ttf",
+          "300italic": "https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TjARc9.ttf",
+          "regular": "https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Me5Q.ttf",
+          "italic": "https://fonts.gstatic.com/s/roboto/v18/KFOkCnqEu92Fr1Mu52xP.ttf",
+          "500italic": "https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51S7ABc9.ttf",
+          "700italic": "https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TzBhc9.ttf",
+          "900italic": "https://fonts.gstatic.com/s/roboto/v18/KFOjCnqEu92Fr1Mu51TLBBc9.ttf"
+        }
+      }
+    ],
+    "blocks": [
+      "/* @ref:block:builder-6f4d6b18285e49d594ce52ccc0777528 */"
+    ]
+  },
+  "metrics": {
+    "clicks": 0,
+    "impressions": 0
+  },
+  "variations": {},
+  "lastUpdated": 1681146682836,
+  "testRatio": 1,
+  "createdBy": "luLdKGbIh9bL6fqVq9olgjJm4f82",
+  "lastUpdatedBy": "luLdKGbIh9bL6fqVq9olgjJm4f82",
+  "folders": []
+}
