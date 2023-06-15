@@ -5,8 +5,9 @@ import React from 'react';
 import { BuilderComponent, builder, useIsPreviewing, Builder } from '@builder.io/react';
 import DepartmentCard from "@/components/departments/departments-card";
 import {InferGetStaticPropsType} from "next";
-import '/builder-settings';
+// import '/builder-settings';
 
+builder.init("073f4fc59c1e4b0d93c2c757e7f0e2e9");
 export async function getStaticProps({ params }: any) {
   // Fetch the first page from Builder that matches the current URL.
   // Use the `userAttributes` field for targeting content.
