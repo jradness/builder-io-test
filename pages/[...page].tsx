@@ -5,9 +5,8 @@ import React from 'react';
 import { BuilderComponent, builder, useIsPreviewing, Builder } from '@builder.io/react';
 import DepartmentCard from "@/components/departments/departments-card";
 import {InferGetStaticPropsType} from "next";
-// import '/builder-settings';
 
-builder.init("073f4fc59c1e4b0d93c2c757e7f0e2e9");
+builder.init("9679269f37df43699c036074fd9e6ccb");
 export async function getStaticProps({ params }: any) {
   // Fetch the first page from Builder that matches the current URL.
   // Use the `userAttributes` field for targeting content.
@@ -45,10 +44,9 @@ export async function getStaticPaths() {
 
 export default function Page({ page }: InferGetStaticPropsType<typeof getStaticProps>) {
   const router = useRouter();
-
   //  This flag indicates if you are viewing the page in the Builder editor.
   const isPreviewing = useIsPreviewing();
-  const alphabet = [...Array(26)].map((val, i) => String.fromCharCode(i + 65));
+
   if (router.isFallback) {
     return <h1>Loading...</h1>;
   }

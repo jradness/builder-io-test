@@ -1,7 +1,6 @@
 import { builder } from '@builder.io/react';
 // Be sure to import all of your components where you use <BuilderComponent /> so they are
 // bundled and accessible
-import '/builder-settings';
 import '@/styles/globals.css';
 import type { AppProps } from 'next/app';
 
